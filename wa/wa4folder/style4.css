@@ -1,0 +1,84 @@
+/* General styles - put these straight into your stylesheet */
+
+
+body {
+    margin: 0;
+  }
+  
+  html {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 1em; /*  Not sure if changing this from 10px was a good idea. Made it bigger*/
+    background-color: #ccc;
+  }
+  
+  .card {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: red;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+    line-height: .75em;
+  }
+
+  .card header {
+    border-radius: 1.5em 0 0 0;
+    height: 2.5em;
+    text-indent: 1em;
+  }
+
+
+  article {
+    height: 12em;
+    background: rgba(0,0,0,.2)
+  }
+
+  article p {
+    color: white;
+    margin-inline-start: 1em;
+    padding-top: 5%;
+  }
+
+  .card article img {
+    max-height: 100%;
+    float: right;
+  }
+  
+
+  .card footer {
+    border-radius: 0 0 0 0;
+    font-size: 1.5em; 
+    text-indent: 1em;
+  }
+  
+  .card2 {
+    width: 35em;
+    height: 22em;
+    margin: 5em auto;
+    background-color: lightblue;
+    border: 0.2em solid black;
+    border-radius: 1.5em;
+  }
+  
+  .card2 header {
+    border-radius: 1.5em 0 0 0;
+    height: 2.5em;
+    text-indent: 1em;
+    font-family: cursive;
+  }
+
+  .card2 article img {
+    max-height: 100%;
+    float: right;
+  }
+  
+  .card2 footer {
+    border-radius: 0 0 0 0;
+    font-size: 1.5em; 
+    text-indent: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
