@@ -60,7 +60,7 @@ body {
     height: 22em;
     margin: 5em auto;
     background-color: lightblue;
-    border: 0.2em solid black;
+    border: 0.2em solid navy;
     border-radius: 1.5em;
   }
   
@@ -69,6 +69,7 @@ body {
     height: 2.5em;
     text-indent: 1em;
     font-family: cursive;
+    color: cornflowerblue;
   }
 
   .card2 article img {
@@ -79,6 +80,7 @@ body {
   .card2 footer {
     border-radius: 0 0 0 0;
     font-size: 1.5em; 
-    text-indent: 1em;
+    text-indent: 4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: navy;
   }
