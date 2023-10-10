@@ -1,0 +1,19 @@
+
+
+.content {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color: blue;
+    border-width: 100px;
+    border-color: blueviolet;
+    margin-top: -150px;
+    margin-left: 100px;
+    text-align: center;
+    color: chartreuse;
+
+}
+
+img {
+    margin-left: 60px;
+}
