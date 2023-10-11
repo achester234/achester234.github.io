@@ -1,19 +1,63 @@
 
 
-.content {
+.content1 {
     position: absolute;
     width: 120px;
     height: 100px;
-    background-color: blue;
-    border-width: 100px;
-    border-color: blueviolet;
+    background-color: darkred;
     margin-top: -150px;
     margin-left: 100px;
     text-align: center;
-    color: chartreuse;
+    color: white;
+    border: black 5px solid;
 
 }
+
+.score1 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color:darkslategrey;
+    margin-top: -150px;
+    margin-left: 220px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: black 5px solid;
+
+}
+
+.score2 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color:darkslategrey;
+    margin-top: -150px;
+    margin-left: 350px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: black 5px solid;
+
+}
+
+
+.content2 {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    background-color: darkblue;
+    margin-top: -150px;
+    margin-left: 475px;
+    text-align: center;
+    color: lightyellow;
+    border: black 5px solid;
+
+}
+
 
 img {
     margin-left: 60px;
 }
+
+
