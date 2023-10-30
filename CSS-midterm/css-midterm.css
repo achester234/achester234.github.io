@@ -1,0 +1,108 @@
+
+@media screen and (max-width: 1500px){
+body{
+    color: steelblue;
+    font-family: monospace;
+    font-size: 1.5vw;
+    background-image: url("PictureB.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    padding: 2.5vw 0 0 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 2vw;
+    margin: 0 10vw 1vw 10vw;
+}
+
+img {
+    width: 40vw;
+    height: 30vw;
+}
+
+article {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    background-color: black;
+}
+ article p {
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-right: 7vw;
+ }
+
+ Main {
+    display: grid;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    display: block;
+    margin-left: 5vw;
+    margin-right: 20vw;
+ }
+
+ h2 {
+    padding-top: 5vh;
+    text-align: center;
+ }
+
+
+ Main h3 {
+    background-color: black;
+    padding-top: 1vh;
+    padding-left: 1vw;
+    padding-bottom: 1vh;
+    background-image: url("images-1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+ }
+
+ Main h4 {
+    color: black;
+ }
+
+ Main h6 {
+    margin-bottom: 70px;
+ }
+}
+
+ @media screen and (max-width: 400px){
+    Main {
+        margin-right: 6vw;
+        font-size: larger;
+    }
+
+    article {
+        margin-top: 5vw;
+    }
+
+    article p {
+        margin-top: 2vw;
+        font-size: larger;
+    }
+
+    img {
+        width: 60vw;
+        height: 40vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+    
+ }
+
+ 
+
+
