@@ -1,5 +1,3 @@
-
-@media screen and (min-width: 1500px){
 body{
     color: steelblue;
     font-family: monospace;
@@ -73,7 +71,7 @@ article {
  Main h6 {
     margin-bottom: 70px;
  }
-}
+
 
  @media screen and (max-width: 400px){
     Main {
