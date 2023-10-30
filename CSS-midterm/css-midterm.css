@@ -27,15 +27,14 @@ img {
     height: 30vw;
 }
 
-article {
+.intro {
     display: flex;
     align-content: center;
     text-align: center;
-    margin-top: 10vh;
     background-color: black;
+    margin-top: 5vw;
 }
- article p {
-    margin-top: 15vh;
+ .intro p {
     margin-left: 5vw;
     margin-right: 7vw;
  }
