@@ -78,11 +78,11 @@ img {
         font-size: larger;
     }
 
-    article {
+    .intro {
         margin-top: 5vw;
     }
 
-    article p {
+    .intro p {
         margin-top: 2vw;
         font-size: larger;
     }
