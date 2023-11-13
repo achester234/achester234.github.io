@@ -1,0 +1,60 @@
+h1 {
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    background-color: midnightblue;
+    
+  }
+  
+  body {
+    width: 640px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    font-family: monospace;
+  }
+  
+  .full-img {
+    position: relative;
+    display: block;
+  }
+  
+  .displayed-img {
+    height: 480px;
+    width: 640px;
+    border: 2px solid white;
+  } 
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 640px;
+    height: 480px;
+    background-color: rgba(0,0,0,0);
+  }
+  
+  button {
+    border: 0;
+    background: rgba(205, 90, 100);
+    text-shadow: 1px 1px 1px black;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    left: 2px;
+    font-family: monospace;
+  }
+  
+  .thumb-bar {
+    display: flex;
+    justify-content: center;
+   
+    
+  }
+
+  .thumb-bar img {
+    display: block;
+    cursor: pointer;
+    height: 85px;
+  }
