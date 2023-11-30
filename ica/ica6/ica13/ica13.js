@@ -83,7 +83,7 @@ class Ball {
 }
 
 const balls = [];
-while (balls.length < 5) {
+while (balls.length < 100) {
     const size = random(50,100);
     const ball = new Ball(
         // minimum and maximum x and y cordinates to keep ball on screen
