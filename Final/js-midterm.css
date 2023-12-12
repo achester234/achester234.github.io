@@ -1,0 +1,45 @@
+html { 
+  background-color: steelblue;
+  }
+
+.digits {
+  width: 220px;
+  height: 160px;
+  position: absolute;
+  background: url(blob.svg) no-repeat; 
+}
+
+.digits input {
+  width: 80px;
+  text-align: center;
+  margin-top: 75px;
+  margin-left: 36px;
+  font-family: monospace;
+}
+
+h1 {
+  background-color: black;
+  font-family: monospace;
+  color: white;
+  padding: 30px;
+  margin: 1%;
+  text-align: center;
+  font-size: 3.5vw;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  padding: 1vw;
+  margin-left: 1200px;
+  margin-top: 550px;
+  width: 150px;
+  font-size: 30px;
+}
+
+button:hover {
+  background-color: forestgreen;
+}
+

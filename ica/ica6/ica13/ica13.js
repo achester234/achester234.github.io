@@ -44,7 +44,7 @@ class Ball {
         if ((this.x + this.size) >= width) {
            this.velX = -(this.velX); 
         }
-
+        // this = digit
         //left edge
         if ((this.x - this.size) <= 0) {
             this.velX = -(this.velX);
@@ -83,7 +83,7 @@ class Ball {
 }
 
 const balls = [];
-while (balls.length < 100) {
+while (balls.length < 5) {
     const size = random(50,100);
     const ball = new Ball(
         // minimum and maximum x and y cordinates to keep ball on screen
