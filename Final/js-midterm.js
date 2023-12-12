@@ -2,8 +2,8 @@ const digits = document.querySelectorAll('.digits');
 
 const xPositions = [0,0,0,0,0,0,0,0,0,0]
 const yPositions = [0,0,0,0,0,0,0,0,0,0]
-const xSpeeds = [1,-1,2,3,2,1,-3,5,-4,6];
-const ySpeeds = [1,2,-2,3,-3,5,-4,4,5,-6];
+const xSpeeds = [1,-1,2,3,2,1,-3,5,-4,5];
+const ySpeeds = [1,2,-2,3,-3,4,-4,4,5,-6];
 
 const width = window.innerWidth - digits[0].offsetWidth;
 const height = window.innerHeight - digits[0].offsetHeight;
@@ -18,10 +18,10 @@ function update(digit, i) {
     if (yPositions[i] >= height || yPositions[i] < 0) { 
         ySpeeds[i] *= -1
     }
-    // changing x position when updating
+    // changing x position when updating to get the divs to move left and right
     xPositions[i] =  xPositions[i] + xSpeeds[i];
     digit.style.left = xPositions[i] + 'px';
-    // Changing y postion when updating
+    // Changing y postion when updating to move it up and down
     yPositions[i] =  yPositions[i] + ySpeeds[i];
     digit.style.top = yPositions[i] + "px";
 }
