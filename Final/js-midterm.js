@@ -2,8 +2,8 @@ const digits = document.querySelectorAll('.digits');
 
 const xPositions = [0,0,0,0,0,0,0,0,0,0]
 const yPositions = [0,0,0,0,0,0,0,0,0,0]
-const xSpeeds = [1,-1,2,3,2,1,-4,5,-5,7];
-const ySpeeds = [1,2,-2,3,-3,4,-4,5,7,-7];
+const xSpeeds = [1,-1,2,3,2,1,-2,3.5,-4.7,5];
+const ySpeeds = [1,2,-1.5,3,-2.5,3,-3.5,4.5,4.5,-5];
 
 const width = window.innerWidth - digits[0].offsetWidth;
 const height = window.innerHeight - digits[0].offsetHeight;
@@ -32,12 +32,35 @@ function loop() {
         const digit = digits[i]
         // calling the update fuction
         update(digit, i);
-        console.log(digit.style.left);
     }
     requestAnimationFrame(loop);
 }
 
+const form = document.getElementById('form')
+
+form.addEventListener('submit', (e) => {
+    console.log("WORK")
+    e.preventDefault();
+    let phoneNumber = 'Your number: '
+    for (let i = 0; i < digits.length; i++) {
+        const digit = digits[i]
+        const singleDigit = digit.getElementsByTagName('input')[0].value
+        console.log(singleDigit)
+        if (singleDigit) {
+            phoneNumber = phoneNumber + singleDigit
+        } else {
+            phoneNumber = phoneNumber + "_";
+        }
+
+        if (i == 2 || i == 5) {
+            phoneNumber = phoneNumber + "-";
+        }
+    }
+    document.getElementById('numberDisplay').innerHTML = phoneNumber
+})
+
 loop();
+
 
 
 
