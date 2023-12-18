@@ -34,7 +34,7 @@ button {
   font-family: sans-serif;
   text-align: center;
   padding: 1vw;
-  width: 150px;
+  max-width: auto;
   font-size: 30px;
   margin-right: 10px;
 }
